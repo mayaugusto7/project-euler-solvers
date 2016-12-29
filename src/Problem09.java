@@ -5,11 +5,17 @@ public class Problem09 {
 
     public static void main(String[] args) {
 
-        int a = 0;
-        int b = 0;
-        int c = 1000;
+        double a = 3;
+        double b = 5;
+        double c = 0;
 
-        
+        c = Math.pow(a, 2) + Math.pow(b, 2);
+
+        if (c == 25) {
+            c  = Math.sqrt(c);
+        }
+
+        System.out.print(c);
 
     }
 
