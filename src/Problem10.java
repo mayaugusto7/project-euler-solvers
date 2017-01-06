@@ -1,6 +1,4 @@
 import java.math.BigInteger;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by MayconRibeiro on 21/12/16.
@@ -9,15 +7,13 @@ public class Problem10 {
 
     private static final long LIMIT = 2000000;
 
-    private static long total = 0;
-
     public static void main(String[] args) {
 
         BigInteger sum = new BigInteger("2");
 
         boolean isPrime = true;
 
-        for (int i = 3; i < 2000000; i++) {
+        for (int i = 3; i < LIMIT; i++) {
 
             double aa = Math.sqrt((double)i);
 
