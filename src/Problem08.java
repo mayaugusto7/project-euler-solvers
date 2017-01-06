@@ -30,7 +30,7 @@ public class Problem08 {
         long maiorProduto = 0;
         long tamanhoMaximo = 0;
 
-        tamanhoMaximo = 1000 - 4;
+        tamanhoMaximo = 1000 - 13;
 
         for (int i = 0; i < tamanhoMaximo; i++) {
 
